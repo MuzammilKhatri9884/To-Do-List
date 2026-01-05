@@ -1,0 +1,63 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* nav{
+   width: 100%;
+   background-color: aquamarine;
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+   line-height: 7vh;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style-type: none;
+}
+li{
+    text-transform: capitalize;
+} */
+
+/* body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+
+h1{
+    animation-name: heading;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    }
+
+@keyframes heading{
+    0%{
+        margin: 0;
+        left: 0;
+        rotate: 0deg;
+    }
+    50%{
+        margin: 0;
+        left: 50px;
+        rotate: 90deg;
+    }
+    75%{
+        margin: 0;
+        left: 0px;
+        rotate: 180deg;
+    }
+    100%{
+        margin: 0;
+        left: 50px;
+        rotate: 360deg;
+    }
+} */
