@@ -1,12 +1,3 @@
-// var divEl = document.getElementById("container"); 
-// var h1El = document.createElement("h1");
-// var h1Text = document.createTextNode("JS is created by Khatri");
-
-
-// h1El.appendChild(h1Text);
-// divEl.appendChild(h1El);
-// console.log(h1El);
-
 // Create To DO List
 
 var ul = document.getElementById("ul");
@@ -33,6 +24,7 @@ function updateItem(liID){
     changeName.setAttribute("onclick","updateElItem()");
     elementIDUpdate = liID;
 }
+//Update Button
 function updateElItem(){
     var li = document.getElementById(elementIDUpdate);
     li.firstChild.nodeValue = todolist.value;
@@ -66,19 +58,3 @@ function addItem(){
     todolist.value = "";
     
 }
-
-// var ul = document.getElementById("ul");
-// var targetArea = ul.firstElementChild;
-// var targetArea = ul.lastElementChild ;
-// var targetArea = ul.firstElementChild.innerHTML;
-// console.log(targetArea);
-
-// var targetLi = document.getElementById("server-el");
-// var targetArea = targetLi.previousElementSibling;  //target the above Element
-// var targetArea = targetLi.nextElementSibling;  //target the below Element
-// console.log(targetArea);
-
-// var h3 = document.createElement('h3');
-// var h3Text = document.createTextNode("I am H3 Element");
-// h3.appendChild(h3Text);
-// console.log(h3Text.nodeValue);  //nodeValue define text value not element
